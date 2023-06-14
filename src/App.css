@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.texttable{
+  border-collapse:collapse;
+  border:1px solid #000000;
+  margin: 10px;
+  width: 900px;
+  overflow: scroll;
+}
+
+table { width: 100%; }
+table td, table th { 
+  overflow-wrap:anywhere;
+  overflow: scroll;
+ }
+ .texttable td{
+  max-width: 150px;
+ }
+
+.texttable td, th{
+  border:1px solid #000000;
+  }
+mark{
+  background-color: white;
+}
+.CONJ{
+  background-color: orange;
+}
+.CCONJ{
+  background-color: yellow;
+}
+.DET{
+  background-color: rebeccapurple;
+}
+.INTJ{
+  background-color: cadetblue;
+}
+.NOUN{
+  background-color: gold;
+}
+.NUM{
+  background-color: teal;
+}
+.PART{
+  background-color: mediumslateblue;
+}
+.PRON{
+  background-color: azure;
+}
+.PROPN{
+  background-color: salmon;
+}
+.PUNCT{
+  background-color: red;
+}
+.SCONJ{
+  background-color: mediumaquamarine;
+}
+.SYM{
+  background-color: palevioletred;
+}
+.VERB{
+  background-color: fuchsia;
+}
+.X{
+  background-color: darkcyan;
+}
+.EOL{
+  background-color: greenyellow;
+}
+.SPACE{
+  background-color: grey;
+}
+.ADP{
+  background-color: pink;
+}
+.ADJ{
+  background-color: blue;
+}
+.AUX{
+  background-color: darkkhaki;
+}
+
+.optionCheck{
+  float:left;
+   width:350px;
+   padding-top:10px;
+}
+.tableContainer{
+  float: left;
+  width: 900px;
+}
+
+.CONJ_new{
+  background-color: orange;
+}
+.CCONJ_new{
+  background-color: yellow;
+}
+.DET_new{
+  background-color: rebeccapurple;
+}
+.INTJ_new{
+  background-color: cadetblue;
+}
+.NOUN_new{
+  background-color: gold;
+}
+.NUM_new{
+  background-color: teal;
+}
+.PART_new{
+  background-color: mediumslateblue;
+}
+.PRON_new{
+  background-color: azure;
+}
+.PROPN_new{
+  background-color: salmon;
+}
+.PUNCT_new{
+  background-color: red;
+}
+.SCONJ_new{
+  background-color: mediumaquamarine;
+}
+.SYM_new{
+  background-color: palevioletred;
+}
+.VERB_new{
+  background-color: fuchsia;
+}
+.X_new{
+  background-color: darkcyan;
+}
+.EOL_new{
+  background-color: greenyellow;
+}
+.SPACE_new{
+  background-color: grey;
+}
+.ADP_new{
+  background-color: pink;
+}
+.ADJ_new{
+  background-color: blue;
+}
+.AUX_new{
+  background-color: darkkhaki;
+}
